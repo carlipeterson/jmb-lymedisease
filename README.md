@@ -4,7 +4,7 @@ R0.m - run this file to calculate the basic reproductive number R_0 on the fixed
 
 makeJacobian.m - this is called by the "R0.m" file to assess local stability; it numerically finds the Jacobian of the tick-host system without infection.
 
-makeJacobianInfection.m - this is called by the "DRIVERInfection.m" file to assess local stability; it numerically finds the Jacobian of the tick-host system without infection.
+makeJacobianInfection.m - this is called by the "DRIVERInfection.m" file to assess local stability; it numerically finds the Jacobian of the tick-host system with infection.
 
 mySystem.m - this is called by the "R0.m" files during the system solving process; it iterates the tickMap function once to find fixed points.
 
