@@ -6,7 +6,7 @@ makeJacobian.m - this is called by the "R0.m" file to assess local stability; it
 
 makeJacobianInfection.m - this is called by the "DRIVERInfection.m" file to assess local stability; it numerically finds the Jacobian of the tick-host system with infection.
 
-mySystem.m - this is called by the "R0.m" files during the system solving process; it iterates the tickMap function once to find fixed points.
+mySystem.m - this is called by the "R0.m" file during the system solving process; it iterates the tickMap function once to find fixed points.
 
 mySystem2.m - this is called by the "R0.m" file during the system solving process; it iterates the tickMap function twice to find 2-cycle points.
 
